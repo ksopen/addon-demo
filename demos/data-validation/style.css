@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body { width: 100%; height: 100%; overflow: hidden; }
+.main {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.require {
+  color: red;
+  padding: 4px;
+}
+.tips {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color:#767c85;
+}
+
+#verify-button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: rgb(65, 127, 249);
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}

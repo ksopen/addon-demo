@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./main.js" type="module"></script>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <main>
+    <div class="part">
+      <p class="plugin-desc">
+        <span class="require">*</span>
+        这是一个将表格中的工资条进行拆分, 每个员工一个独立的表格, 方便打印的插件，请按照以下步骤提示进行使用。
+      </p>
+      <div class="item">
+        <div class="step">
+          <span>1</span>
+        </div>
+        <div class="main">
+          <div class="desc">
+            <p>选中需要拆分表格的头部区域</p>
+            <p class="tips" id="tips">请确保表格是从A1格开始的</p>
+          </div>
+        </div>
+      </div>
+      <span class="line"></span>
+      <div class="item">
+        <div class="step">
+          <span>2</span>
+        </div>
+        <div class="main">
+          <div class="desc">
+            <p>点击按钮开始工资条拆分</p>
+            <p class="tips" id="tips">请保证当前选中的表格为目标表格</p>
+          </div>
+        </div>
+      </div>
+      <button id="start-split">开始拆分工资条</button>
+    </div>
+
+    <div class="part">
+      <p class="plugin-template">
+        <span class="require">*</span>
+        点击下方按钮可以查看本插件可以处理的工资条模板样式
+      </p>
+      <p class="tips">点击按钮生成对应的工资条模板头</p>
+      <button id="template-create">生成工资条模板</button>
+    </div>
+  </main>
+</body>
+
+</html>
