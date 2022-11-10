@@ -205,5 +205,3 @@ async function createChart() {
 
 document.getElementById('init').addEventListener('click', initTable)
 document.getElementById('chart').addEventListener('click', createChart)
-
-const Y = f =>{ (x => f(v => x(x)(v)))(x => f(v => x(x)(v)))}
