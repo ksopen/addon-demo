@@ -1,7 +1,7 @@
 ## 插件大赛引导示例
 演示如何使用Addon API开发金山文档插件，所有示例仅为教学目的，并不用做任何商业用途！
 
-jssdk 下载地址：
+jssdk 下载地址：https://team-app-cdn.wpscdn.cn/lib/@ks-open/app-jssdk/app-jssdk-0.1.26.zip
 
 ### 示例说明
 plugin-lottery
